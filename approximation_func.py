@@ -86,7 +86,7 @@ def approximation_function(args):
     # создаём список с коэффициентами полинома
     factors = []
     for i in range(len(a)):
-        factors.append(a[i][-1]/a[i][i])
+        factors.append(round(a[i][-1]/a[i][i], 10))
     
     
     polynom = ''
